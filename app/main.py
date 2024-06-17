@@ -43,10 +43,6 @@ class Battleship:
                         print("*   ", end=" ")
                     else:
                         print(u"\u25A1   ", end=" ")
-                else:
-                    print("~   ", end=" ")
-            print("")
-            print()
 
     # partly-validation
     def _validate_field(self) -> None:
